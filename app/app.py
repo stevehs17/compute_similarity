@@ -7,6 +7,9 @@ import io
 import requests
 
 def handler(event, context):
+    return helper()
+
+def helper():
     return {
         'statusCode': 200,
         'body': ' ***** HELLLLOkjkjkjkOOOOOOO *****'
