@@ -1,5 +1,5 @@
 def testhelper():
     return {
         'statusCode': 200,
-        'body': ' ***** HELLLLOkjkjkjkOOOOOOO *****'
+        'body': ' IT IMPORTS OK*'
     }
