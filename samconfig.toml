@@ -1,0 +1,8 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "sam-app"
+resolve_s3 = true
+s3_prefix = "sam-app"
+region = "us-west-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["TensorFlowInferenceFunction=453802426162.dkr.ecr.us-west-1.amazonaws.com/samapp7427b055/tensorflowinferencefunction402a36b7repo"]
