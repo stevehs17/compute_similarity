@@ -12,6 +12,8 @@ Resources:
       PackageType: Image
       MemorySize: 1800
       Timeout: 120
+      EphemeralStorage:
+        Size: 1024
     Metadata:
       DockerTag: python3.7-v1
       DockerContext: .
