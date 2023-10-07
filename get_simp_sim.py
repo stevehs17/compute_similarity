@@ -1,9 +1,6 @@
 import json
 from similarity import compute_pair_similarity
 
-def lambda_handler(event, context):
-    return get_simp_sim()
-
 def get_simp_sim():
     try:
         print('Starting get_simp_sim() execution...')
