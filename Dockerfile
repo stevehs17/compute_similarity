@@ -9,8 +9,6 @@ RUN curl https://storage.googleapis.com/tfhub-modules/google/openimages_v4/ssd/m
 RUN tar zxf /tmp/1.tar.gz -C ./model
 RUN chmod 774 ./model/*
 
-# COPY ./app/app.py   ./
-# COPY ./*.py   ./
 COPY ./app/*.py   ./
 
 CMD ["app.handler"]
