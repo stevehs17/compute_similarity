@@ -14,6 +14,8 @@ Resources:
       Timeout: 120
       EphemeralStorage:
         Size: 1024
+      FunctionUrlConfig:
+        AuthType: AWS_IAM
     Metadata:
       DockerTag: python3.7-v1
       DockerContext: .
