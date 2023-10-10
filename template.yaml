@@ -15,9 +15,9 @@ Resources:
       EphemeralStorage:
         Size: 1024
       FunctionUrlConfig:
-        AuthType: AWS_IAM
+        AuthType: NONE
     Metadata:
-      DockerTag: python3.7-v1
+      DockerTag: v1
       DockerContext: .
       Dockerfile: Dockerfile
 
